@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>FBO Next Mock Design (Version 1.0)</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="css/sm-custom.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+      <!-- Content Wrapper -->
+      <div id="content-wrapper" class="d-flex flex-column">
+        <!-- Main Content -->
+        <div id="content">
+          <!-- Topbar -->
+          <nav class="navbar navbar-expand navbar-light bg-fbo topbar static-top">
+            <!--Brand Logo-->
+            <div class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100">
+              <h2 class="logo"><a href="#">FBO Next</a></h2>
+            </div>
+            <!-- Topbar Navbar -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-1">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item mx-1">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+              <!-- Login Link -->
+              <li class="nav-item mx-1">
+                <a class="nav-link loginLnk" href="#" data-toggle="modal" data-target="#loginPop">Login</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- End of Topbar -->
+
+          <!-- Begin Page Content -->
+          <div class="container-fluid no-paddings">
+            <!-- Hero Section -->
+            <section id="hero" class="d-flex align-items-center mb-4">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+                    <h2>Ut auctor mi id metus convallis accumsan. Integer et enim fringilla neque suscipit sagittis porttitor et lorem.</h2>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                      <a href="#" class="btn-login" data-toggle="modal" data-target="#loginPop">Login</a>
+                      <a href="#" class="btn-register" data-toggle="modal" data-target="#registerPop">Register</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                    <img src="img/hero-img.png" class="img-fluid animated" alt="" />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- About Section -->
+            <section id="about" class="about">
+              <div class="container aos-init aos-animate" data-aos="fade-up">
+                <div class="section-title">
+                  <h2>About Us</h2>
+                </div>
+
+                <div class="row content">
+                  <div class="col-lg-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <ul>
+                      <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                      <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+                      <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6 pt-4 pt-lg-0">
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <a href="#" class="btn-learn-more">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- /.container-fluid -->
+        </div>
+        <!-- End of Main Content -->
+
+        <!-- Footer -->
+        <footer id="footer">
+          <div class="footer-newsletter">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-6">
+                  <h4>Join Our Newsletter</h4>
+                  <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                  <form action="" method="post"><input type="email" name="email" /><input type="submit" value="Join" /></form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 footer-contact">
+                  <h3>FBO NEXT</h3>
+                  <p>
+                    0000 Test Street <br />
+                    Test City, TC 000000<br />
+                    Test Country <br /><br />
+                    <strong>Phone:</strong> +0 0000 00000 00<br />
+                    <strong>Email:</strong> info@test.com<br />
+                  </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><i class="fas fa-chevron-right"></i> <a href="#">Home</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="#">About us</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="#">Services</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="#">Terms of service</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Our Services</h4>
+                  <ul>
+                    <li><i class="fas fa-chevron-right"></i> <a href="#">Service Online</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="#">Report Service</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="#">Notifications</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="#">Marketing</a></li>
+                    <li><i class="fas fa-chevron-right"></i> <a href="#">Promotion</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Our Social Networks</h4>
+                  <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                  <div class="social-links mt-3">
+                    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container footer-bottom clearfix">
+            <div class="copyright">
+              © Copyright <strong><span>FBO NEXT</span></strong
+              >. All Rights Reserved
+            </div>
+            <div class="credits">Designed by <a href="#">cascnet</a></div>
+          </div>
+        </footer>
+        <!-- End of Footer -->
+      </div>
+      <!-- End of Content Wrapper -->
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+  </body>
+  <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="card o-hidden border-0 shadow-lg my-5">
+      <div class="card-body p-0">
+        <!-- Nested Row within Card Body -->
+        <div class="row">
+          <div class="col-md-6 d-none d-lg-block bg-login-image"></div>
+          <div class="col-md-6">
+            <div class="p-5">
+              <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4">Enter Login Details</h1>
+              </div>
+              <form class="user">
+                <div class="form-group">
+                  <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address..." />
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" />
+                </div>
+                <div class="form-group">
+                  <div class="custom-control custom-checkbox small">
+                    <input type="checkbox" class="custom-control-input" id="customCheck" />
+                    <label class="custom-control-label" for="customCheck">Remember Me</label>
+                  </div>
+                </div>
+                <a href="dashboard.html" class="btn btn-primary btn-user btn-block"> Login </a>
+                <hr />
+              </form>
+              <hr />
+              <div class="text-center">
+                <a class="small" href="forgot-password.html">Forgot Password?</a>
+              </div>
+              <div class="text-center">
+                <a class="small" href="register.html">Create an Account!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login modal -->
+  <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="loginPop">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="card o-hidden border-0 shadow-lg">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+              <div class="col-md-6 d-none d-lg-block bg-login-image"></div>
+              <div class="col-md-6">
+                <div class="p-5">
+                  <div class="text-center">
+                    <h1 class="h4 text-gray-900 mb-4">Enter Login Details</h1>
+                  </div>
+                  <form class="user">
+                    <div class="form-group">
+                      <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address..." />
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" />
+                    </div>
+                    <div class="form-group">
+                      <div class="custom-control custom-checkbox small">
+                        <input type="checkbox" class="custom-control-input" id="customCheck" />
+                        <label class="custom-control-label" for="customCheck">Remember Me</label>
+                      </div>
+                    </div>
+                    <a href="dashboard.html" class="btn btn-primary btn-user btn-block"> Login </a>
+                    <hr />
+                  </form>
+                  <hr />
+                  <div class="text-center">
+                    <a class="small" href="#">Forgot Password?</a>
+                  </div>
+                  <div class="text-center">
+                    <a class="small" href="#">Create an Account!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Register modal -->
+  <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="registerPop">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="card o-hidden border-0 shadow-lg">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+              <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+              <div class="col-lg-7">
+                <div class="p-5">
+                  <div class="text-center">
+                    <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+                  </div>
+                  <form class="user">
+                    <div class="form-group row">
+                      <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="First Name" />
+                      </div>
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control form-control-user" id="exampleLastName" placeholder="Last Name" />
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address" />
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control form-control-user" id="exampleDUNS" placeholder="Enter DUNS Code" />
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-sm-6 mb-3 mb-sm-0">
+                        <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" />
+                      </div>
+                      <div class="col-sm-6">
+                        <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password" />
+                      </div>
+                    </div>
+                    <a href="dashboard.html" class="btn btn-primary btn-user btn-block"> Register Account </a>
+                    <hr />
+                  </form>
+                  <hr />
+                  <div class="text-center">
+                    <a class="small" href="#">Forgot Password?</a>
+                  </div>
+                  <div class="text-center">
+                    <a class="small" href="index.html">Already have an account? Login!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
